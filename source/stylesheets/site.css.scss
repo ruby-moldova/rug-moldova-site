@@ -1,0 +1,48 @@
+/**
+
+//HTML5 Boilerplate + Normalize Built In
+*= require "vendor/html5bp.css"
+
+//Grid
+*= require "partials/grid"
+
+*/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #efe8d5 inline-image("background.png");
+}
+
+h2.subtitle {
+  font-size: 20pt;
+  line-height: 10pt;
+  margin-top: -40px;
+}
+.logo {
+
+  overflow: hidden;
+  display: block;
+  width: 250px;
+  height: 225px;
+  background: image-url("drawing.svg") no-repeat;
+  background-size: 255px 255px;
+}
+.main-heading {
+  font-size: 72pt;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 48pt;
+}
+
+h2 {
+  font-weight: 200;
+}
+::selection {
+  background: #ff2a2a;
+  }
+::-moz-selection {
+  background: #ff2a2a;
+}
